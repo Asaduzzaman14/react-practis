@@ -79,24 +79,24 @@ function User(props) {
 
 
 
-//  state change 
+//  state change
 
-// function Countrer() {
+function Countrer() {
 
-//   const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
 
-//   const incressCount = () => setCount(count + 1)
-//   const decressCount = () => setCount(count - 1)
+  const incressCount = () => setCount(count + 1)
+  const decressCount = () => setCount(count - 1)
 
 
-//   return (
-//     <div>
-//       <h2>Count:{count}</h2>
-//       <button onClick={incressCount}>Incress</button>
-//       <button onClick={decressCount}>Decress</button>
-//     </div>
-//   )
-// }
+  return (
+    <div>
+      <h2>Count:{count}</h2>
+      <button onClick={incressCount}>Incress</button>
+      <button onClick={decressCount}>Decress</button>
+    </div>
+  )
+}
 
 
 
